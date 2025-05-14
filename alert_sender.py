@@ -29,7 +29,7 @@ default_args = {
 
 schedule_interval = '*/15 * * * *'
 
-my_token = '7217036445:AAFfAfpraRsj3Iu2Nf4tyeArSjysIJFTTMU'
+my_token = 'INSERT_TOKEN_HERE'
 bot = telegram.Bot(token=my_token)
 
 @dag(default_args=default_args, schedule_interval=schedule_interval, catchup=False)
